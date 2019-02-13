@@ -1,0 +1,39 @@
+/**********FORMS*********/
+fieldset{
+    background-color: rgba(109, 142, 186, 0.48);
+    padding: 40px;
+    margin: 50px;
+}
+input[type=text]{
+    width: 50%;
+    padding: 10px 5px 10px 20px ;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: 2px solid ;
+    outline: 0;
+}
+textarea{
+    border: 2px solid;
+    padding: 10px;
+}
+button{
+    border: 0;
+    background-color: #21ba89;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+/************CSS Pseudo-classes*********/
+
+p.description:hover{
+    color: #49aeff;
+    background-color: #252525;
+}
+#message:focus{
+    background-color: #252525;
+    border: 2px #000 solid;
+    color: #fff;
+    outline: 0;
+}

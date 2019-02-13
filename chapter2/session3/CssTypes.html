@@ -1,0 +1,37 @@
+<!--Css: Cascading Style Sheets-->
+<!--We have 3 types of CSS: Inline, Internal, External-->
+<!--Inline CSS: To use inline styles, add the style attribute to the relevant element. The style attribute can contain any CSS property.-->
+<!--Internal CSS: Internal styles are defined within the <style> element, inside the <head> section of an HTML page. -->
+<!--External CSS: Each page must include a reference to the external style sheet file inside the <link> element. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--External CSS-->
+    <link href="style/style.css" rel="stylesheet">
+    <!--Internal CSS-->
+    <style>
+        h1{
+            font-family: Tahoma;
+            font-size: 14px;
+            font-weight: 700;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="paragraph">hello CSS</h1>
+    <p>this is a sample text for test</p>
+    <p class="paragraph">this is a sample text for test</p>
+    <p>this is a sample text for test</p>
+    <p class="paragraph">this is a sample text for test</p>
+    <p class="imgContainer">
+        <!--Inline CSS-->
+        <img src="img/bg.jpg" alt="background"  style="width: 400px;">
+    </p>
+
+
+</body>
+</html>

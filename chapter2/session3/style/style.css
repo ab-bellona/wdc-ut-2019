@@ -1,0 +1,18 @@
+p{
+    background-color: cadetblue;
+    padding: 50px;
+}
+
+p.paragraph{
+    background-image: url("../img/bg.jpg");
+    /*background: darkred url("img/bg.jpg");*/
+    text-align: center;
+}
+
+
+p img{
+    border: 2px red dotted;;
+}
+.imgContainer{
+    text-align: center;
+}

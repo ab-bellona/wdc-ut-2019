@@ -1,0 +1,39 @@
+/*External Style*/
+.blockp{
+    background-color: red;
+    width: 300px;
+    /*margin-top:20px;
+    margin-right:50px;
+    margin-bottom:40px;
+    margin-left:30px;*/
+    margin: 20px 50px 40px 30px;
+    transition: all 1s ease-in-out;
+}
+.blockp:hover{
+    background-color: cadetblue;
+    color: #fff;
+}
+
+.hyper:link{
+    background-color: darkred;
+    color: #fff;
+    width: 200px;
+    height: 100px;
+}
+.hyper:hover{
+    color: #000;
+}
+.hyper:focus{
+    background-color: white;
+}
+.hyper:visited{
+    background-color: aquamarine;
+    color: #fff;
+    width: 200px;
+    height: 100px;
+}
+.container{
+    background-color: burlywood;
+    width: 500px;
+    margin: auto;
+}

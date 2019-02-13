@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style/form.css">
+</head>
+<body>
+    <form action="/forms.php" method="post">
+        <fieldset>
+            <legend>Personal information:</legend>
+
+            <label for="firstName">First Name</label>
+            <br>
+            <input id="firstName" type="text" name="firstName" value="Behrad" disabled="disabled"/>
+            <br>
+            <br>
+            <label for="lastName">Last Name</label>
+            <br>
+            <input id="lastName" type="text" name="lastName" maxlength="10" autofocus="autofocus"/>
+            <br>
+            <br>
+            <hr>
+            <label for="country">Choose Country</label>
+            <br>
+            <select id="country" name="country">
+                <option value="">Choose a value...</option>
+                <option value="iran">Iran</option>
+                <option value="USA">United States</option>
+                <option value="UK">United Kingdom</option>
+                <option value="Spain">Spain</option>
+            </select>
+            <br>
+            <br>
+            <textarea id="message" name="message" placeholder="type some message here..." rows="10" cols="30"></textarea>
+            <br>
+            <br>
+            <span>Your Gender...</span>
+            <br>
+            <!--User can choose only one value-->
+            <input type="radio" name="gender" id="male" value="male" checked> <label for="male">Male</label><br>
+            <input type="radio" name="gender" id="female" value="female"> <label for="female">Female</label> <br>
+            <input type="radio" name="gender" id="other" value="other"> <label for="other"> Other </label>
+            <br>
+            <br>
+            <!--User can choose multiple value-->
+            <input type="checkbox" name="microsoft" id="microsoft" value="microsoft"> <label for="microsoft">I Like Microsoft</label><br>
+            <input type="checkbox" name="google" id="google" value="google"> I Like Google
+            <br>
+            <br>
+            <label for="avatar">Your Avatar...</label>
+            <br>
+            <input type="file" name="avatar" accept="image/jpeg,image/png" id="avatar">
+            <br>
+            <br>
+            <!-- Submit Input -->
+            <!--<input type="submit" value="Submit">-->
+            <!-- Submit Button -->
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+</body>
+</html>
